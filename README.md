@@ -12,3 +12,5 @@
 - Also add UITools.dll from the game’s Mods\UITools folder, by default "C:\Program Files (x86)\Steam\steamapps\common\Spaceflight Simulator\Spaceflight Simulator Game\Mods\UITools".  
 
 Build, then place your mod DLL in the game's Mods folder, by default "C:\Program Files (x86)\Steam\steamapps\common\Spaceflight Simulator\Spaceflight Simulator Game\Mods".  
+
+As you add your own code, you probably will need to reference other DLLs. In fact, you may not need all the ones listed, however they are included here since the example mod as-is *does* require them.
