@@ -1,4 +1,4 @@
-## Setup
+## Mod Project Setup
 *This setup guide assumes you're on Windows.*
 *This mod has been tested to work on game version 1.5.10.2.*
 
