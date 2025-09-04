@@ -13,7 +13,7 @@ namespace SFS_ExampleMod
         {
             uiHolder = Builder.CreateHolder(Builder.SceneToAttach.CurrentScene, "ExampleMod GUI Container");
 
-            // disabled default position saving for UITools compatibility
+            // disabled default position saving for UITools permanent saving compatibility
             Window window = UIToolsBuilder.CreateClosableWindow(uiHolder.transform, windowID, 300, 180, -1280, 720, true, false, 0.85f, "ExampleMod", false);
             window.RegisterPermanentSaving("examplemod.ExampleModWindow");
             window.CreateLayoutGroup(Type.Vertical);
